@@ -1,0 +1,257 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    margin:0px 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header Styles */
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header .logo img {
+    height: 100%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 0 10px;
+}
+
+header nav ul li:first-child {
+    padding-left: 0;
+}
+
+header nav ul li:last-child {
+    padding-right: 0;
+}
+
+header nav a {
+    color: #fff;
+}
+
+header nav a:hover {
+    color: #ccc;
+} */
+
+/* Main Styles */
+/* .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #e0b90f;
+} */
+
+.hero h2{
+    padding: 15px 0px 5px;
+    color: white;
+    text-align: center;
+}
+.hero p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Features Styles */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 20px 20px;
+    background-color:black;
+ }
+
+.features .feature {
+    flex-basis: 30%;
+    text-align: center;
+    color: white;
+}
+.features .feature .icon-box {
+   width: 200px;
+}
+
+.features .feature i {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.features .feature h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Poppins", Sans-serif;
+}
+
+.features .feature button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.features .feature button:hover {
+    background-color: #218838;
+}
+
+ul li{
+    color: white;
+    text-align: center;
+    padding:5px 0px;
+}
+
+
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 400px;
+    margin-left:360px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.whatsapp-btn:hover {
+    background-color: #12b854;
+    cursor: pointer;
+}
+
+.whatsapp-btn i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.whatsapp-btn span {
+    font-size: 1.2rem;
+}
+
+/* Footer Styles */
+footer {
+   
+    padding: 10px;
+        color: #fafafa; 
+    padding: 20px 0px 50px 0px;
+    
+}
+footer p{
+    font-size: 18px;
+    color: #7a7a7a;
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 80px;
+    right: 60px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.whatsapp-icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin:0px;
+    }
+    .whatsapp-btn{
+       
+    /* margin-left:0px; */
+    }
+    main{
+        width: fit-content;
+    }
+    footer p{
+        padding: 0px 20px;
+    }
+    .whatsapp-icon img{
+        width: 90px;
+        height: 90px;
+    }
+    .whatsapp-icon {
+        bottom: 130px;
+    right: 60px;
+    }
+  }
+  
