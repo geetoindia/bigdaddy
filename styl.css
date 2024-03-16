@@ -20,89 +20,12 @@ a {
 ul {
     list-style: none;
 }
-
-/* Header Styles */
-/* header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+.hero-img{
+    height: 900px;
+    width: 100%;
+    
 }
 
-header .logo {
-    height: 50px;
-}
-
-header .logo img {
-    height: 100%;
-}
-
-header nav ul {
-    display: flex;
-}
-
-header nav ul li {
-    padding: 0 10px;
-}
-
-header nav ul li:first-child {
-    padding-left: 0;
-}
-
-header nav ul li:last-child {
-    padding-right: 0;
-}
-
-header nav a {
-    color: #fff;
-}
-
-header nav a:hover {
-    color: #ccc;
-} */
-
-/* Main Styles */
-/* .hero {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-    background-image: url('hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.hero h1 {
-    font-size: 4rem;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero p {
-    font-size: 1.5rem;
-    color: #fff;
-    margin-bottom: 20px;
-    max-width: 500px;
-    text-align: center;
-}
-
-.hero button {
-    padding: 10px 20px;
-    background-color: #ffc107;
-    color: #333;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.hero button:hover {
-    background-color: #e0b90f;
-} */
 
 .hero h2{
     padding: 15px 0px 5px;
@@ -117,54 +40,7 @@ header nav a:hover {
 
 /* Features Styles */
 
-.features {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 20px 20px 20px;
-    background-color:black;
- }
 
-.features .feature {
-    flex-basis: 30%;
-    text-align: center;
-    color: white;
-}
-.features .feature .icon-box {
-   width: 200px;
-}
-
-.features .feature i {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.features .feature h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.features .feature p {
-    font-size: 15px;
-    color: white;
-    margin-bottom: 20px;
-    font-family: "Poppins", Sans-serif;
-}
-
-.features .feature button {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.features .feature button:hover {
-    background-color: #218838;
-}
 
 ul li{
     color: white;
@@ -236,8 +112,7 @@ footer p{
       margin:0px;
     }
     .whatsapp-btn{
-       
-    /* margin-left:0px; */
+            margin-left:0px !important; 
     }
     main{
         width: fit-content;
@@ -246,12 +121,18 @@ footer p{
         padding: 0px 20px;
     }
     .whatsapp-icon img{
-        width: 90px;
-        height: 90px;
+        width: 40px;
+        height: 40px;
     }
     .whatsapp-icon {
-        bottom: 130px;
-    right: 60px;
+        bottom: 90px;
+    right: 50px;
     }
+    .hero-img{
+        height: 490px;
+        width: 100%;
+
+    }
+   
   }
   
