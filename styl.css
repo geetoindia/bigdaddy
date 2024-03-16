@@ -129,7 +129,8 @@ footer p{
     right: 50px;
     }
     .hero-img{
-        height: 490px;
+/*         height: 490px; */
+        height:100%;
         width: 100%;
 
     }
